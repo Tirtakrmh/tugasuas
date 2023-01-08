@@ -12,7 +12,7 @@ public class Main {
         Pribadi[] mobilAvailable = {avanza, xenia, kijang};
 
 //      inputan
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useDelimiter("\n");
 
 //      program
         System.out.println("~~~         SELAMAT DATANG DI PENYEWAAN MOBIL TIRTA     ~~~");
