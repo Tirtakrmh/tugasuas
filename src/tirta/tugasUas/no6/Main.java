@@ -6,7 +6,7 @@ public class Main extends Pizza{
     public static void main(String[] args) {
         Pizza pizza = new Pizza();
         int toping = 0, pinggiran = 0, ukuran = 0;
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useDelimiter("\n");
 
         System.out.println("=================================");
         System.out.println("           PIZZA MOTARU");
